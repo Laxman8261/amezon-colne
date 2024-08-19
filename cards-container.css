@@ -1,0 +1,125 @@
+.cards-container {
+    background-color: #eee;
+    display: flex;
+    gap: 2rem;
+    margin-top: -6rem;
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 36px;
+}
+
+.tittle {
+    margin-bottom: 0.3rem;
+}
+
+.cards-left-container {
+    width: 70%;
+    background-color: #eee;
+    padding: 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.images-container {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    gap: 16px;
+    background-color: white;
+    object-fit: fill;
+    overflow-x: scroll;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.images-container img {
+    max-height: 190px;
+    max-width: 180px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
+.cards-right-container {
+    /* position: sticky;
+    top: 10px; */
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.cards-right-container img {
+    object-fit: contain;
+    width: 100%;
+    height: fit-content;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right-container-gifs{
+    position: sticky;
+    top: 10px;
+}
+
+.product-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.product {
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 16/9;
+}
+
+.product-images p {
+    font-size: 20px;
+    padding-top: 0.5rem;
+}
+.posters-vedios-container{
+    display: flex;
+    scroll-snap-type: x proximity;
+    overflow-x: auto;
+    width: 100%;
+    scroll-behavior: auto;
+    gap: 10px;
+    background-color: white;
+}
+.images-videos{
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.images-videos img , .images-videos video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.posters-vedios-main-container h1 {
+    padding-top: 2rem;
+    padding-bottom: 0.3rem;
+}
